@@ -1,4 +1,4 @@
-# Project5-BKS-CLI-Library
+# Project5 BKS CLI Library
 
 Aplicativo de linha de comando para buscar livros de domínio publico.
 
