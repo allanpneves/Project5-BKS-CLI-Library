@@ -1,0 +1,42 @@
+{
+  "name": "bks-cli",
+  "version": "0.0.1",
+  "description": "Command Line Books Menager",
+  "main": "cli.js",
+  "scripts": {
+    "prepare": "husky",
+    "run": "node ./cli.js"
+  },
+  "lint-staged": {
+    "*.js, *.md": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanpneves/Project5-BKS-CLI-Library.git"
+  },
+  "keywords": [
+    "cli",
+    "books",
+    "js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allanpneves/Project5-BKS-CLI-Library/issues"
+  },
+  "homepage": "https://github.com/allanpneves/Project5-BKS-CLI-Library#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@eslint/json": "^0.13.1",
+    "@eslint/markdown": "^7.1.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.4",
+    "prettier": "3.6.2"
+  }
+}
