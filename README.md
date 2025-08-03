@@ -26,6 +26,9 @@ Aplicativo de linha de comando para buscar livros de domínio publico.
 )
 </div>
 
+### Dicas:
+[Voce pode encontrar dicas na Wiki](https://github.com/allanpneves/Project5-BKS-CLI-Library/wiki/Dicas)
+
 ## **Objetivos de Aprendizagem:**
 Desenvolver uma aplicação CLI usando NodeJS que consome uma API publica
 
