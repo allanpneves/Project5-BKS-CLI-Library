@@ -8,7 +8,11 @@
     "run": "node ./cli.js"
   },
   "lint-staged": {
-    "*.js, *.md": [
+    "*.{js, .md}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "src/**/*.{js, .md}": [
       "eslint --fix",
       "prettier --write"
     ]
